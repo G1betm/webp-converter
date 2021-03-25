@@ -1,0 +1,22 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "to webp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-webp": "^5.1.0"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^9.0.0",
+    "mozjpeg": "^7.0.0"
+  }
+}
